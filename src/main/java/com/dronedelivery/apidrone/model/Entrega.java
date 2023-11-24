@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "entregas")
 public class Entrega extends Location{
 
-    @Id 
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEntrega;
     @Column(name = "nome")
